@@ -1,0 +1,13 @@
+<--  */ Python and Jupyter Notebooks /*  -->
+
+<--  */ Code Cell /*  -->
+#This is  a 'Code' Cell
+print("This is  code cell")
+
+
+
+<--  */  Print statement  /*  -->
+
+# print statements
+variable = "right in the strings!"
+print(f"f strings allow you to embed variables {variable}")
