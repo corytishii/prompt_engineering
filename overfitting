@@ -1,0 +1,14 @@
+#Overfitting
+
+%matplotlib widget
+import matplotlib.pyplot as plt
+from ipywidgets import Output
+from plt_overfit import overfit_example, output
+plt.style.use('./deeplearning.mplstyle')
+
+#Overfitting
+#We can generate a plot that will allow us to explore overfitting
+
+plt.close("all")
+display(output)
+ofit = overfit_example(False)
